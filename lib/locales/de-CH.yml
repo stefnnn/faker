@@ -75,6 +75,10 @@ de-CH:
       full_address:
         - "#{street_address}, #{zip_code} #{city}"
         - "#{street_address}, #{zip_code} #{city}"
+        - "#{street_address}, #{zip_code} #{city}"
+        - "#{street_address}, #{zip_code} #{city}"
+        - "#{street_address}, #{zip_code} #{city}"
+        - "#{street_address}, #{zip_code} #{city}"
         - "#{street_address}, c/o #{Name.name}, #{zip_code} #{city}"
         - "#{street_address}, CH - #{zip_code} #{city}"
         - "#{street_address}, Postfach, #{zip_code} #{city}"
