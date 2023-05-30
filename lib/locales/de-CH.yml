@@ -3243,10 +3243,14 @@ de-CH:
         - "#{first_name} #{last_name}"
         - "#{first_name} #{last_name}"
         - "#{first_name} #{last_name}-#{last_name}"
+
     company:
       suffix:
         - AG
+        - AG
+        - AG
         - GmbH
+        - GMBH
         - und Söhne
         - und Partner
         - "& Co."
@@ -3260,10 +3264,57 @@ de-CH:
         - Genossenschaft
         - KG
         - Stiftung
+      company_name:
+        - AWK
+        - Spicer
+        - Bode
+        - NEXT
+        - AVASAR
+        - Moxie
+        - KONNECT
+        - KINETIC
+        - RADIANT
+        - blue
+        - everywhere
+        - three
+        - cleantech
+        - greentech
+
+      company_category:
+        - Accounting
+        - Branding
+        - Communications
+        - Consulting
+        - Corporation
+        - Data
+        - Design
+        - Development
+        - Group
+        - HR
+        - Industries
+        - Infrastructure
+        - Integration
+        - Management
+        - Marketing
+        - Operations
+        - Research
+        - Sales
+        - Security
+        - Services
+        - Software
+        - Solutions
+        - Systems
+        - Gruppe
+
       name:
-        - "#{Name.last_name} #{suffix}"
-        - "#{Name.last_name}-#{Name.last_name}"
-        - "#{Name.last_name}, #{Name.last_name} und #{Name.last_name}"
+        - "#{company_name}"
+        - "#{company_name} #{company_category}"
+        - "#{Name.last_name} #{company_category}"
+        - "#{Name.last_name} #{company_category} #{suffix}"
+        - "#{company_name} #{company_category}"
+        - "#{company_name} #{company_category} #{suffix}"
+        - "#{Name.last_name}-#{Name.last_name} #{suffix}"
+
     color:
       name:
         - rot
